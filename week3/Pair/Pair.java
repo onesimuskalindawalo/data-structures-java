@@ -1,4 +1,7 @@
-import interface.PairADT;
+package ADTT.Pair;
+
+import ADTT.interfaces.PairADT;
+
 
 public class Pair<T> implements PairADT<T> {
     T left, right;
